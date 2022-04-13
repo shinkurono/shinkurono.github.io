@@ -489,14 +489,17 @@ nav a:hover::before {
 }
 
 .third-content .first-section .left-content {
-	margin-right: 15px;
-	margin-top: 12px;
+	margin-top: 70px;
 	text-align: left;
+	padding-right: 125px;
+	
 }
 
 .third-content .first-section .right-image {
 	margin-left: 15px;
+	margin-top:70px;
 	text-align: center;	
+	padding-left: 125px;
 }
 
 .third-content .second-section {
@@ -512,27 +515,33 @@ nav a:hover::before {
 .third-content .second-section .left-image {
 	margin-right: 15px;
 	text-align: center;
+	height: 40vh;
 }
 
 .third-content .third-section .left-content {
 	margin-top: 12px;
+	text-align: left;
+	width: 60%;
+	height: 25vh;
+}
+
+.third-content .third-section .skills {
+	margin-bottom: 50px;
 }
 
 .third-content .third-section .right-image {
-	margin-left: 15px;
-}
-
-.third-content .fourth-section {
-	margin-top: 30px;
-}
-
-.third-content .fourth-section .right-content {
-	margin-left: 15px;
-	margin-top: 12px;
+	text-align: left;
 }
 
 .third-content .fourth-section .left-image {
-	margin-right: 15px;
+	height: 30vh;
+}
+
+.third-content .fifth-section .left-content {
+	margin-top: 12px;
+	text-align: left;
+	width: 60%;
+	height: 25vh;
 }
 
 .third-content h2 {
@@ -615,8 +624,6 @@ nav a:hover::before {
 }
 
 .third-content .col-md-6s {
-	padding-left: 125px;
-	padding-top: 50px;
 	display: inline-block;
 	position:absolute;
 	left: auto;
@@ -629,7 +636,7 @@ nav a:hover::before {
 	margin: 0px;
 	padding: 0px;
 	display: inline-block;
-	padding-right: 125px;
+	width:45vw;
 }
 
 
@@ -644,9 +651,7 @@ nav a:hover::before {
 
 .third-content .col-md-6b2 {
 	margin-left: 50px;
-  	padding: 0px;
   	width: 20vw;
-  	height: 50vw;
   	display: inline-block;
 }
 
@@ -671,6 +676,13 @@ nav a:hover::before {
 .fourth-content .item img {
 	max-width: 100%;
 	overflow: hidden;
+	height: 350px;
+	object-fit: fill;
+}
+
+.fourth-content .col-md-4col-sm-6 {
+	width:34vw;
+	display: inline-block;
 }
 
 .fourth-content .item .thumb {
@@ -721,14 +733,20 @@ nav a:hover::before {
 
 .fourth-content .item .hover-effect p {
 	font-size: 13px;
-	text-transform: uppercase;
 	letter-spacing: 0.5px;
 	line-height: 22px;
 	padding-bottom: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 }
 
+.fourth-content .item .hover-content li {
+	font-size: 12px;
+	margin-left:12px;
+}
 
+.fourth-content .item .hover-content ul {
+	padding-top:10px;
+}
 
 .fifth-content .container-fluid {
 	padding-left: 0px;
@@ -825,6 +843,45 @@ nav a:hover::before {
 	text-decoration: none;
 }
 
+#console {
+	width: 750px;
+	padding: 60px 80px;
+	height: 380px;
+	margin: 0 auto;
+	background: #383737;
+}
+
+.fifth-content .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.fifth-content .container {
+	width: 15%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30%;
+  }
+
+#code {
+	border-radius: 5px;
+	width: 750px;
+	margin: 0 auto;
+	padding-top: 15px;
+	font-size: 30px;
+	background: #ccc;
+	height: 380px;
+	text-align: left;
+	font-family: 'Inconsolata', monospace;
+	font-size: 14px;
+	color: #fafafa;
+}
 
 
 /* REPONSIVE */
